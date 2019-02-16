@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -100,7 +100,8 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 144, 0, 0.9);
+  background: linear-gradient(to right, #845ec2b8,#d65db1b5,#ff6f91ab,#ff9671a6,#ffc75fa1,#f9f871a3);
+  /*background: rgba(255, 144, 0, 0.9);*/
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -211,6 +212,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  border: 5px solid #fff;
 }
 #fh5co-header .display-tc .fh5co-social-icons li a,
 .fh5co-cover .display-tc .fh5co-social-icons li a {
